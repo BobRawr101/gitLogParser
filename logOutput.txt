@@ -1,0 +1,283 @@
+commit dcfb9d22565ff7b0e1fe3fbdf27fe60f57994477
+Author: Ethan J. Howell <ethanhowell@users.noreply.github.com>
+Date:   Sun Jul 30 12:35:25 2017 -0500
+
+    fixed buffering bug, more efficient now
+
+3	0	include/main.h
+7	2	src/main.c
+2	0	src/vm.c
+
+commit b8756080f1dd268d48d186a2c7a84b43581af436
+Author: Ethan J. Howell <ethanhowell@users.noreply.github.com>
+Date:   Sat Jul 29 18:06:06 2017 -0500
+
+    clarified installation procedure
+
+1	1	README.md
+
+commit 9d76cdc5740ba531ef50b47d4b2022ed196f3732
+Author: Ethan J. Howell <ethanhowell@users.noreply.github.com>
+Date:   Sat Jul 29 17:36:24 2017 -0500
+
+    added link to code of conduct
+
+1	1	CONTRIBUTING.md
+
+commit c720ea73adc35cac228e5b6242d4983825e5bb6d
+Author: Ethan J. Howell <ethanhowell@users.noreply.github.com>
+Date:   Sat Jul 29 17:34:55 2017 -0500
+
+    Create CODE_OF_CONDUCT.md
+
+46	0	CODE_OF_CONDUCT.md
+
+commit f1512492094fc1347787488c3ec3446bb4b49d48
+Author: Ethan J. Howell <ethanhowell@users.noreply.github.com>
+Date:   Sat Jul 29 17:25:08 2017 -0500
+
+    added link to CONTRIBUTING.md file
+
+2	2	README.md
+
+commit 9e1ab53fded20d03647ef091e9eb44f04ce6aa4a
+Author: Ethan J. Howell <ethanhowell@users.noreply.github.com>
+Date:   Sat Jul 29 17:24:29 2017 -0500
+
+    Create CONTRIBUTING.md
+
+11	0	CONTRIBUTING.md
+
+commit bed6f68c8ab396eaa1bd3db598d0ae31d2d88ace
+Author: Ethan J. Howell <ethanhowell@users.noreply.github.com>
+Date:   Sat Jul 29 17:02:13 2017 -0500
+
+    removed any buffering to stdout
+
+3	0	src/main.c
+
+commit cbc71e15928ef1f7ae4617a9ed3ecf5c8db6458f
+Author: Ethan J. Howell <ethanhowell@users.noreply.github.com>
+Date:   Sat Jul 29 13:55:57 2017 -0500
+
+    fixed parsing bug for underflow&overflow register
+
+2	2	src/parser.c
+
+commit 6abbc7cd6d7847d940fb05b10dab531a9047a775
+Author: Ethan J. Howell <ethanhowell@users.noreply.github.com>
+Date:   Sat Jul 29 13:48:18 2017 -0500
+
+    changed behavior of addition and subtraction
+
+2	2	src/vm.c
+
+commit 1fd2860540a1fbe6d5c3d4e39486b66b3639b590
+Author: Ethan J. Howell <ethanhowell@users.noreply.github.com>
+Date:   Sat Jul 29 11:49:28 2017 -0500
+
+    fixed off-by-one in string printing routine
+
+2	2	src/vm.c
+
+commit d800d0a4df0b5a90965daade572c2830f8c662a9
+Author: Ethan J. Howell <ethanhowell@users.noreply.github.com>
+Date:   Sat Jul 29 11:29:51 2017 -0500
+
+    improved bug report section
+    
+    took away non-existent email address, added more bug report info
+
+1	1	README.md
+
+commit 220d2e8ea60236e75c3b73c7de8c3fff222eba1a
+Author: Ethan J. Howell <ethanhowell@users.noreply.github.com>
+Date:   Sat Jul 29 11:19:24 2017 -0500
+
+    added example program
+
+20	0	README.md
+
+commit 1fe4158e93fc6a572f235fc8deebc2ae4ad4fd10
+Author: Ethan J. Howell <ethanhowell@users.noreply.github.com>
+Date:   Sat Jul 29 10:46:06 2017 -0500
+
+    changed styling
+
+1	1	README.md
+
+commit 836807cc1349c02a4fb621f9707f49da57fcd95a
+Author: Ethan J. Howell <ethanhowell@users.noreply.github.com>
+Date:   Sat Jul 29 10:43:41 2017 -0500
+
+    changed make production flags for less aggressive optimatizion
+
+1	1	Makefile
+
+commit f07cd5e8ffec7479053642755cff76ac27691b2a
+Author: Ethan J. Howell <ethanhowell@users.noreply.github.com>
+Date:   Sat Jul 29 10:41:13 2017 -0500
+
+    fixed installation bug in makefile
+
+5	2	Makefile
+
+commit 38cfaaa3c863465ab010688cabc92e73c6d6dd3d
+Author: Ethan J. Howell <ethanhowell@users.noreply.github.com>
+Date:   Fri Jul 28 19:34:09 2017 -0500
+
+    fixed conditional bug in jumps
+
+2	2	src/vm.c
+
+commit a149ddb47615f675faddc0766de5f3fc502fa083
+Author: Ethan J. Howell <ethanhowell@users.noreply.github.com>
+Date:   Fri Jul 28 12:01:11 2017 -0500
+
+    Update README.md
+    
+    oops, making heading sub-heading
+
+1	1	README.md
+
+commit 8354602fa8af6822a76941cb082bf93918d5c5a1
+Author: Ethan J. Howell <ethanhowell@users.noreply.github.com>
+Date:   Fri Jul 28 12:00:45 2017 -0500
+
+    Update README.md
+
+15	1	README.md
+
+commit 089c59d67b01f73d33475c164652835c3e698633
+Author: Ethan J. Howell <ethanhowell@users.noreply.github.com>
+Date:   Fri Jul 28 11:48:41 2017 -0500
+
+    Create LICENSE
+    
+    added license for the interpreter
+
+21	0	LICENSE
+
+commit 1ed698d73526118745a66661648073ce55b6d032
+Author: Ethan J. Howell <ethanhowell@users.noreply.github.com>
+Date:   Fri Jul 28 11:45:52 2017 -0500
+
+    added langauge info
+
+2	0	.gitattributes
+
+commit 69c41c314f5d639bc0f6fe8fd01392bfdfee162b
+Author: Ethan J. Howell <ethanhowell@users.noreply.github.com>
+Date:   Fri Jul 28 11:40:36 2017 -0500
+
+    modified makefile and new README
+
+8	2	Makefile
+1	0	README.md
+
+commit 5081c14b4f942dc043b6e827bbbe43bb757cb1a8
+Author: Ethan J. Howell <ethanhowell@users.noreply.github.com>
+Date:   Fri Jul 28 10:33:37 2017 -0500
+
+    slight tweak
+
+0	3	include/main.h
+
+commit 503d6446eec8e3fb68c9548a7e309c9f149cc08b
+Author: Ethan J. Howell <ethanhowell@users.noreply.github.com>
+Date:   Thu Jul 27 23:53:13 2017 -0500
+
+    first (probably bug-ridden) version of interpreter completed! 1718 LOC
+
+3	0	include/main.h
+1	0	include/vm.h
+10	2	src/main.c
+1	2	src/parser.c
+390	12	src/vm.c
+
+commit 459a575056d5b738be6d9d855f73dae1a9e6d1d0
+Author: Ethan J. Howell <ethanhowell@users.noreply.github.com>
+Date:   Thu Jul 27 18:25:30 2017 -0500
+
+    finished all i/o routines
+
+41	3	src/vm.c
+
+commit ccfc2a5d3f2b3d70c5075e3c6548773ef49e18b2
+Author: Ethan J. Howell <ethanhowell@users.noreply.github.com>
+Date:   Thu Jul 27 18:14:55 2017 -0500
+
+    Hello World program WORKS!!!
+
+1	2	include/stack_block.h
+5	4	include/stack_char.h
+1	0	include/vm.h
+4	1	src/stack_block.c
+12	9	src/stack_char.c
+102	26	src/vm.c
+
+commit 4a4bdfaa5066f9c1243ff8b0a11809437ac3b789
+Author: Ethan J. Howell <ethanhowell@users.noreply.github.com>
+Date:   Thu Jul 27 15:15:13 2017 -0500
+
+    modified stack so no reliance on vector backend
+
+3	2	include/stack_char.h
+46	16	src/stack_char.c
+
+commit 58a6b2048f70ac26b92ce1845399b0dca210d50d
+Author: Ethan J. Howell <ethanhowell@users.noreply.github.com>
+Date:   Thu Jul 27 14:30:54 2017 -0500
+
+    finished arithmetic of VM
+
+27	0	include/vm.h
+285	3	src/vm.c
+
+commit fbc2e122659b5cafd1489ec5ba7c1bd879150bd5
+Author: Ethan J. Howell <ethanhowell@users.noreply.github.com>
+Date:   Wed Jul 26 13:56:40 2017 -0500
+
+    working on the interpreter back-end
+
+9	7	Makefile
+1	0	include/error.h
+3	0	include/instructions.h
+1	0	include/main.h
+10	0	include/vm.h
+5	0	src/error.c
+1	8	src/main.c
+13	4	src/parser.c
+36	0	src/vm.c
+
+commit cfd37e2a5590228a8030f54552441360e3e38714
+Author: Ethan J. Howell <ethanhowell@users.noreply.github.com>
+Date:   Sat Jul 22 18:58:32 2017 -0500
+
+    modified gitignore
+
+2	0	.gitignore
+
+commit da97200551225801a76426e46dd6be6d9eadffa2
+Author: Ethan J. Howell <ethanhowell@users.noreply.github.com>
+Date:   Sat Jul 22 18:57:35 2017 -0500
+
+    first commit, front end working and mostly bug-free
+
+2	0	.gitignore
+29	0	Makefile
+15	0	include/block.h
+4	0	include/bool.h
+8	0	include/error.h
+42	0	include/instructions.h
+12	0	include/main.h
+56	0	include/parser.h
+30	0	include/stack_block.h
+25	0	include/stack_char.h
+39	0	include/vector_char.h
+6	0	src/error.c
+31	0	src/main.c
+343	0	src/parser.c
+69	0	src/stack_block.c
+39	0	src/stack_char.c
+81	0	src/vector_char.c
